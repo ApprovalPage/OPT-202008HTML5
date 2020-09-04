@@ -1046,7 +1046,7 @@ if (reversed == null) { reversed = false; }
 	props.reversed = reversed;
 	cjs.MovieClip.apply(this,[props]);
 
-	this.actionFrames = [0,265];
+	this.actionFrames = [0,253];
 	// timeline functions:
 	this.frame_0 = function() {
 		//if(!this.alreadyyExecuted){
@@ -1058,7 +1058,7 @@ if (reversed == null) { reversed = false; }
 		//gotoAndPlay(2);
 		//}
 	}
-	this.frame_265 = function() {
+	this.frame_253 = function() {
 		//if(!this.alreadyExecuted){
 		//this.alreadyExecuted=true;
 		//this.loopNum=1;
@@ -1071,27 +1071,27 @@ if (reversed == null) { reversed = false; }
 	}
 
 	// actions tween:
-	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(265).call(this.frame_265).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(253).call(this.frame_253).wait(1));
 
 	// border-nonPhoto
 	this.instance = new lib.bordernonPhoto();
 	this.instance.setTransform(80,300,1,1,0,0,0,80,-175);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance).wait(266));
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(254));
 
 	// CTA
 	this.instance_1 = new lib.CTA();
 	this.instance_1.setTransform(100.5,275,1,1,0,0,0,0,10);
 	this.instance_1._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(265).to({_off:false},0).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(253).to({_off:false},0).wait(1));
 
 	// logo
 	this.instance_2 = new lib.logo();
 	this.instance_2.setTransform(78.9,229.1,1,1,0,0,0,0,20.1);
 	this.instance_2._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(250).to({_off:false},0).wait(16));
+	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(238).to({_off:false},0).wait(16));
 
 	// HEAD3
 	this.instance_3 = new lib.HEAD3();
@@ -1099,14 +1099,14 @@ if (reversed == null) { reversed = false; }
 	this.instance_3.alpha = 0;
 	this.instance_3._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(206).to({_off:false},0).to({alpha:1},6).wait(54));
+	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(194).to({_off:false},0).to({alpha:1},6).wait(54));
 
 	// Tag
 	this.instance_4 = new lib.Tag();
 	this.instance_4.setTransform(211,188.15,1,1,0,0,0,-150,15);
 	this.instance_4._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_4).wait(222).to({_off:false},0).to({x:171.4},14,cjs.Ease.quadOut).wait(30));
+	this.timeline.addTween(cjs.Tween.get(this.instance_4).wait(210).to({_off:false},0).to({x:171.4},14,cjs.Ease.quadOut).wait(30));
 
 	// HEAD2a
 	this.instance_5 = new lib.HEAD2a();
@@ -1114,7 +1114,7 @@ if (reversed == null) { reversed = false; }
 	this.instance_5.alpha = 0;
 	this.instance_5._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_5).wait(111).to({_off:false},0).to({alpha:1},6,cjs.Ease.quadOut).wait(79).to({x:-84.5},16,cjs.Ease.quadInOut).to({_off:true},1).wait(53));
+	this.timeline.addTween(cjs.Tween.get(this.instance_5).wait(105).to({_off:false},0).to({alpha:1},6,cjs.Ease.quadOut).wait(73).to({x:-84.5},16,cjs.Ease.quadInOut).to({_off:true},1).wait(53));
 
 	// HEAD2b
 	this.instance_6 = new lib.HEAD2b();
@@ -1122,7 +1122,7 @@ if (reversed == null) { reversed = false; }
 	this.instance_6.alpha = 0;
 	this.instance_6._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_6).wait(135).to({_off:false},0).to({alpha:1},6,cjs.Ease.quadOut).wait(55).to({x:-84.5},16,cjs.Ease.quadInOut).to({_off:true},1).wait(53));
+	this.timeline.addTween(cjs.Tween.get(this.instance_6).wait(129).to({_off:false},0).to({alpha:1},6,cjs.Ease.quadOut).wait(49).to({x:-84.5},16,cjs.Ease.quadInOut).to({_off:true},1).wait(53));
 
 	// HEAD1
 	this.instance_7 = new lib.HEAD1();
@@ -1130,7 +1130,7 @@ if (reversed == null) { reversed = false; }
 	this.instance_7.alpha = 0;
 	this.instance_7._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_7).wait(28).to({_off:false},0).to({y:134.9,alpha:1},6).wait(58).to({x:-206.5},16,cjs.Ease.quadInOut).to({_off:true},1).wait(157));
+	this.timeline.addTween(cjs.Tween.get(this.instance_7).wait(28).to({_off:false},0).to({y:134.9,alpha:1},6).wait(52).to({x:-206.5},16,cjs.Ease.quadInOut).to({_off:true},1).wait(151));
 
 	// pic2
 	this.instance_8 = new lib.pic2();
@@ -1138,32 +1138,32 @@ if (reversed == null) { reversed = false; }
 	this.instance_8.alpha = 0;
 	this.instance_8._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_8).wait(101).to({_off:false},0).to({x:79,alpha:1},16,cjs.Ease.quadOut).wait(149));
+	this.timeline.addTween(cjs.Tween.get(this.instance_8).wait(95).to({_off:false},0).to({x:79,alpha:1},16,cjs.Ease.quadOut).wait(143));
 
 	// pic1
 	this.instance_9 = new lib.pic1();
 	this.instance_9.setTransform(241,475,1,1,0,0,0,0,-125);
 	this.instance_9._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_9).wait(5).to({_off:false},0).to({x:107},16,cjs.Ease.quadOut).wait(71).to({x:-52.75,alpha:0},16,cjs.Ease.quadInOut).to({_off:true},1).wait(157));
+	this.timeline.addTween(cjs.Tween.get(this.instance_9).wait(5).to({_off:false},0).to({x:107},16,cjs.Ease.quadOut).wait(65).to({x:-52.75,alpha:0},16,cjs.Ease.quadInOut).to({_off:true},1).wait(151));
 
 	// border
 	this.instance_10 = new lib.border();
 	this.instance_10.setTransform(0,475);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_10).wait(266));
+	this.timeline.addTween(cjs.Tween.get(this.instance_10).wait(254));
 
 	// HorizRect
 	this.instance_11 = new lib.HorizRect();
 	this.instance_11.setTransform(10,172);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_11).wait(266));
+	this.timeline.addTween(cjs.Tween.get(this.instance_11).wait(254));
 
 	// bkgd
 	this.instance_12 = new lib._300x600_BkgdTone();
 	this.instance_12.setTransform(-140,0);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_12).wait(266));
+	this.timeline.addTween(cjs.Tween.get(this.instance_12).wait(254));
 
 	this._renderFirstFrame();
 
@@ -1178,8 +1178,8 @@ lib.properties = {
 	color: "#333333",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/Opt_Display_Generic1_160x600_atlas_P_1.png?1599241632011", id:"Opt_Display_Generic1_160x600_atlas_P_1"},
-		{src:"images/Opt_Display_Generic1_160x600_atlas_NP_1.jpg?1599241632011", id:"Opt_Display_Generic1_160x600_atlas_NP_1"}
+		{src:"images/Opt_Display_Generic1_160x600_atlas_P_1.png?1599246680615", id:"Opt_Display_Generic1_160x600_atlas_P_1"},
+		{src:"images/Opt_Display_Generic1_160x600_atlas_NP_1.jpg?1599246680615", id:"Opt_Display_Generic1_160x600_atlas_NP_1"}
 	],
 	preloads: []
 };
