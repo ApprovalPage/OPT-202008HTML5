@@ -1769,8 +1769,8 @@ lib.properties = {
 	color: "#333333",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/Optum_Display_Rebrand_OrelCarla_300x250_atlas_P_1.png?1601059745506", id:"Optum_Display_Rebrand_OrelCarla_300x250_atlas_P_1"},
-		{src:"images/Optum_Display_Rebrand_OrelCarla_300x250_atlas_NP_1.jpg?1601059745507", id:"Optum_Display_Rebrand_OrelCarla_300x250_atlas_NP_1"}
+		{src:"images/Optum_Display_Rebrand_OrelCarla_300x250_atlas_P_1.png?1601061843913", id:"Optum_Display_Rebrand_OrelCarla_300x250_atlas_P_1"},
+		{src:"images/Optum_Display_Rebrand_OrelCarla_300x250_atlas_NP_1.jpg?1601061843913", id:"Optum_Display_Rebrand_OrelCarla_300x250_atlas_NP_1"}
 	],
 	preloads: []
 };
