@@ -1732,11 +1732,11 @@ if (reversed == null) { reversed = false; }
 
 	// pic2
 	this.instance_9 = new lib.pic2();
-	this.instance_9.setTransform(348.25,125,1,1,0,0,0,0,-125);
+	this.instance_9.setTransform(329.15,164.1,0.848,0.848,0,0,0,0.2,-124.9);
 	this.instance_9.alpha = 0;
 	this.instance_9._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_9).wait(89).to({_off:false},0).to({x:214,alpha:1},16,cjs.Ease.quadOut).wait(67).to({regX:0.2,regY:-124.9,scaleX:0.848,scaleY:0.848,x:40.55,y:164.1},16,cjs.Ease.quadInOut).wait(60));
+	this.timeline.addTween(cjs.Tween.get(this.instance_9).wait(89).to({_off:false},0).to({x:195.15,alpha:1},16,cjs.Ease.quadOut).wait(67).to({x:40.55},16,cjs.Ease.quadInOut).wait(60));
 
 	// pic1
 	this.instance_10 = new lib.pic1();
@@ -1749,7 +1749,7 @@ if (reversed == null) { reversed = false; }
 	this.instance_11 = new lib.HorizRect();
 	this.instance_11.setTransform(100,175);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_11).wait(105).to({x:60},0).wait(67).to({x:-128},16,cjs.Ease.quadInOut).wait(60));
+	this.timeline.addTween(cjs.Tween.get(this.instance_11).wait(97).to({x:60},0).wait(75).to({x:-128},16,cjs.Ease.quadInOut).wait(60));
 
 	// bkgd
 	this.instance_12 = new lib._300x250_BkgdTone();
@@ -1760,7 +1760,7 @@ if (reversed == null) { reversed = false; }
 	this._renderFirstFrame();
 
 }).prototype = p = new lib.AnMovieClip();
-p.nominalBounds = new cjs.Rectangle(-153,125,651.3,145);
+p.nominalBounds = new cjs.Rectangle(-153,125,620,145);
 // library properties:
 lib.properties = {
 	id: '0957C5EC3B874C629166840920B09671',
@@ -1770,8 +1770,8 @@ lib.properties = {
 	color: "#333333",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/Optum_Display_Rebrand_OrelCarla_250x250_atlas_P_1.png?1601323021295", id:"Optum_Display_Rebrand_OrelCarla_250x250_atlas_P_1"},
-		{src:"images/Optum_Display_Rebrand_OrelCarla_250x250_atlas_NP_1.jpg?1601323021295", id:"Optum_Display_Rebrand_OrelCarla_250x250_atlas_NP_1"}
+		{src:"images/Optum_Display_Rebrand_OrelCarla_250x250_atlas_P_1.png?1601335491769", id:"Optum_Display_Rebrand_OrelCarla_250x250_atlas_P_1"},
+		{src:"images/Optum_Display_Rebrand_OrelCarla_250x250_atlas_NP_1.jpg?1601335491769", id:"Optum_Display_Rebrand_OrelCarla_250x250_atlas_NP_1"}
 	],
 	preloads: []
 };
