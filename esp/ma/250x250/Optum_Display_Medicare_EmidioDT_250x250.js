@@ -1725,11 +1725,11 @@ if (reversed == null) { reversed = false; }
 
 	// pic2
 	this.instance_8 = new lib.pic2();
-	this.instance_8.setTransform(348.25,125,1,1,0,0,0,0,-125);
+	this.instance_8.setTransform(304.15,144.1,0.848,0.848,0,0,0,0.2,-124.9);
 	this.instance_8.alpha = 0;
 	this.instance_8._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_8).wait(89).to({_off:false},0).to({x:214,alpha:1},16,cjs.Ease.quadOut).wait(67).to({regX:0.2,regY:-124.9,scaleX:0.848,scaleY:0.848,x:40.55,y:144.1},16,cjs.Ease.quadInOut).wait(60));
+	this.timeline.addTween(cjs.Tween.get(this.instance_8).wait(89).to({_off:false},0).to({x:204.15,alpha:1},16,cjs.Ease.quadOut).wait(67).to({x:40.55},16,cjs.Ease.quadInOut).wait(60));
 
 	// pic1
 	this.instance_9 = new lib.pic1();
@@ -1753,7 +1753,7 @@ if (reversed == null) { reversed = false; }
 	this._renderFirstFrame();
 
 }).prototype = p = new lib.AnMovieClip();
-p.nominalBounds = new cjs.Rectangle(-153,119,651.3,131);
+p.nominalBounds = new cjs.Rectangle(-153,125,616,125);
 // library properties:
 lib.properties = {
 	id: '0957C5EC3B874C629166840920B09671',
@@ -1763,8 +1763,8 @@ lib.properties = {
 	color: "#333333",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/Optum_Display_Medicare_EmidioDT_250x250_atlas_P_1.png?1601329126627", id:"Optum_Display_Medicare_EmidioDT_250x250_atlas_P_1"},
-		{src:"images/Optum_Display_Medicare_EmidioDT_250x250_atlas_NP_1.jpg?1601329126627", id:"Optum_Display_Medicare_EmidioDT_250x250_atlas_NP_1"}
+		{src:"images/Optum_Display_Medicare_EmidioDT_250x250_atlas_P_1.png?1601335469488", id:"Optum_Display_Medicare_EmidioDT_250x250_atlas_P_1"},
+		{src:"images/Optum_Display_Medicare_EmidioDT_250x250_atlas_NP_1.jpg?1601335469488", id:"Optum_Display_Medicare_EmidioDT_250x250_atlas_NP_1"}
 	],
 	preloads: []
 };
