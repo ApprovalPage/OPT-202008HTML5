@@ -201,13 +201,13 @@ if (reversed == null) { reversed = false; }
 
 	// Layer_1
 	this.instance = new lib._300x250_0423();
-	this.instance.setTransform(-150,-256);
+	this.instance.setTransform(-121,-251,0.828,0.828);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
 	this._renderFirstFrame();
 
-}).prototype = getMCSymbolPrototype(lib.pic2, new cjs.Rectangle(-150,-256,300,250), null);
+}).prototype = getMCSymbolPrototype(lib.pic2, new cjs.Rectangle(-121,-251,248.4,207), null);
 
 
 (lib.OptumR_RGBeps = function(mode,startPosition,loop,reversed) {
@@ -854,7 +854,7 @@ if (reversed == null) { reversed = false; }
 	this._renderFirstFrame();
 
 }).prototype = p = new lib.AnMovieClip();
-p.nominalBounds = new cjs.Rectangle(-64,1.9,694,145);
+p.nominalBounds = new cjs.Rectangle(-64,5,694,116.1);
 // library properties:
 lib.properties = {
 	id: '0957C5EC3B874C629166840920B09671',
@@ -864,8 +864,8 @@ lib.properties = {
 	color: "#333333",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/Optum_Display_Medicare_EmidioDT_300x50_atlas_P_1.png?1601329293712", id:"Optum_Display_Medicare_EmidioDT_300x50_atlas_P_1"},
-		{src:"images/Optum_Display_Medicare_EmidioDT_300x50_atlas_NP_1.jpg?1601329293712", id:"Optum_Display_Medicare_EmidioDT_300x50_atlas_NP_1"}
+		{src:"images/Optum_Display_Medicare_EmidioDT_300x50_atlas_P_1.png?1601331040652", id:"Optum_Display_Medicare_EmidioDT_300x50_atlas_P_1"},
+		{src:"images/Optum_Display_Medicare_EmidioDT_300x50_atlas_NP_1.jpg?1601331040652", id:"Optum_Display_Medicare_EmidioDT_300x50_atlas_NP_1"}
 	],
 	preloads: []
 };
