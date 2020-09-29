@@ -786,6 +786,13 @@ if (reversed == null) { reversed = false; }
 	// actions tween:
 	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(174).call(this.frame_174).wait(1));
 
+	// border bottom
+	this.shape = new cjs.Shape();
+	this.shape.graphics.f().s("#E87723").ss(7,2,0,3).p("AXcAAMgu3AAA");
+	this.shape.setTransform(150,50);
+
+	this.timeline.addTween(cjs.Tween.get(this.shape).wait(175));
+
 	// legal
 	this.instance = new lib.legal();
 	this.instance.setTransform(200.55,28.65,1,1,0,0,0,0,12.8);
@@ -831,11 +838,11 @@ if (reversed == null) { reversed = false; }
 	this.timeline.addTween(cjs.Tween.get(this.instance_5).wait(11).to({_off:false},0).to({x:194,alpha:1},16,cjs.Ease.quadOut).wait(81).to({regX:0.1,x:194.05},0).to({regX:0,x:-59},16,cjs.Ease.quadIn).to({_off:true},1).wait(50));
 
 	// border
-	this.shape = new cjs.Shape();
-	this.shape.graphics.f().s("#E87723").ss(7,1,0,3).p("A3bj5MAu3AAAIAAHzMgu3AAAg");
-	this.shape.setTransform(150,25);
+	this.shape_1 = new cjs.Shape();
+	this.shape_1.graphics.f().s("#E87723").ss(7,1,0,3).p("A3bDWIAAnPMAu3AAAIAAHPIAAAkMgu3AAAg");
+	this.shape_1.setTransform(150,25);
 
-	this.timeline.addTween(cjs.Tween.get(this.shape).wait(175));
+	this.timeline.addTween(cjs.Tween.get(this.shape_1).wait(175));
 
 	// HorizRect
 	this.instance_6 = new lib.HorizRect();
@@ -864,8 +871,8 @@ lib.properties = {
 	color: "#333333",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/Optum_Display_Rebrand_OrelCarla_300x50_atlas_P_1.png?1601323053096", id:"Optum_Display_Rebrand_OrelCarla_300x50_atlas_P_1"},
-		{src:"images/Optum_Display_Rebrand_OrelCarla_300x50_atlas_NP_1.jpg?1601323053096", id:"Optum_Display_Rebrand_OrelCarla_300x50_atlas_NP_1"}
+		{src:"images/Optum_Display_Rebrand_OrelCarla_300x50_atlas_P_1.png?1601337744721", id:"Optum_Display_Rebrand_OrelCarla_300x50_atlas_P_1"},
+		{src:"images/Optum_Display_Rebrand_OrelCarla_300x50_atlas_NP_1.jpg?1601337744721", id:"Optum_Display_Rebrand_OrelCarla_300x50_atlas_NP_1"}
 	],
 	preloads: []
 };
